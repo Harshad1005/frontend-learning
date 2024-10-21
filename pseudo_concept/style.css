@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 
+    before element property responsible to apply before the element
+*/
+p::before{
+    content: '40';
+}
+
+/* 
+    after element property responsible to apply after the content
+*/
+p::after{
+    content: 'Harshad';
+}
+
+
+/* 
+    First-line responsible to display change the property of the first line in the element
+*/
+h1::first-line{
+    color: red;
+}
+
+/* 
+    Firt-letter responsible to change the property of 1st letter in particular class
+*/
+h1::first-letter{
+    font-size: 80px;
+}
+
+/* 
+    Selection responsible for the action which we perform on the elements
+*/
+h1::selection{
+    color: green;
+}
+
+/* 
+    focus works when we select the element for click on the element and make it active
+*/
+input:focus{
+    background-color: black;
+    color: white;
+}

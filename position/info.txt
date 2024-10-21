@@ -1,0 +1,5 @@
+Absolute
+    Whenever we apply position absolute to a elements, the plane of the element changes and doesn't remain
+    same as other elements
+    Basically the element is floating on the website
+

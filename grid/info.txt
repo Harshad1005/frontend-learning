@@ -1,0 +1,4 @@
+1.  Flex i.e display flex is a single dimension property that means we can only work in one single
+    direction at a time
+
+2. Grid is 2D property, i.e we can work in vertical and well as horizontal direction

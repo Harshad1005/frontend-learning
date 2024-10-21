@@ -1,0 +1,18 @@
+px
+    Should be used less.
+    As responsible for actual size of the screen and might not be adujstable when screen is resises or changes.
+    Like in office when you made the css changes and after that you viewed it on someone's else laptop then always it used to look different.
+
+%
+    Takes the percent available on the screen.
+    But always considers the parent elements, i.e the width or height given in percentage would be considered according to the parent.
+
+vw, vh
+    vw and vh takes units according to screen, irespective of the parent.
+
+em(Empherial Unit)
+    Depends on the font size of the element or its parent element
+    Behaves same like pixel
+
+rem(Root Empherial Unit)
+    Depends on the HTML element or tag, font-size
